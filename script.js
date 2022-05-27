@@ -8,4 +8,4 @@ let adaptive;
 
 alert("Modal window with text");
 
-console.log("Console message!");git commit - a - m
+console.log("Console message!"); 
