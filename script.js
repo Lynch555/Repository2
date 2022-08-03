@@ -26,7 +26,7 @@ let servicePrice2 = prompt("Сколько это будет стоить?");
 let fullPrice = parseInt(screenPrice) + parseInt(servicePrice1) + parseInt(servicePrice2);
 let rollback = fullPrice / 100 * 10;
 let servicePercentPrice = fullPrice - rollback;
-console.log(Math.ceil(servicePercentPrice));
+console.log(Math.ceil(servicePercentPrice + " рублей, долларов, гривен, юани"));
 
 if (fullPrice >= 30000) {
     console.log("Даем скидку в 10%");
